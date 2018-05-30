@@ -1,0 +1,16 @@
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Application generated files #
+######################
+DerivedData/*
+CustomTransitionStyle.xcodeproj/project.xcworkspace/xcshareddata/*
+CustomTransitionStyle.xcodeproj/project.xcworkspace/xcuserdata/*
+CustomTransitionStyle.xcodeproj/xcuserdata/*
