@@ -15,6 +15,14 @@ class HerbsCollectionViewController: UICollectionViewController {
     private struct Constant {
         static let cellIdentifier = "herbCell"
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let cell = sender as? HerbCollectionViewCell,
+            let destination = segue.destination as? HomeViewController
+        {
+            destination.selectedHerb = cell.herb
+        }
+    }
 }
 
 extension HerbsCollectionViewController {

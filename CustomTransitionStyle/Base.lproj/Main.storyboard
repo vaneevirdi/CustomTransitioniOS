@@ -21,7 +21,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="herd_garden.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="t6F-j4-nWK">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <visualEffectView opaque="NO" alpha="0.45000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zse-Ez-2af" userLabel="BlurView">
+                            <visualEffectView opaque="NO" alpha="0.40000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zse-Ez-2af" userLabel="BlurView">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="UiW-qb-4uy">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -41,11 +41,11 @@
                                 </connections>
                             </containerView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nVK-18-G74">
-                                <rect key="frame" x="168.5" y="62" width="39" height="30"/>
+                                <rect key="frame" x="166" y="62" width="44" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="A6k-6j-M5l"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -56,8 +56,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="body" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mFu-kK-ldu">
-                                <rect key="frame" x="30" y="112" width="315" height="17"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <rect key="frame" x="30" y="112" width="315" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -91,11 +91,67 @@
                         <outlet property="content" destination="mFu-kK-ldu" id="38m-tE-WAW"/>
                         <outlet property="subtitleLabel" destination="IbG-pO-NXM" id="DFB-HY-aYQ"/>
                         <outlet property="titleLabel" destination="nVK-18-G74" id="txM-Ff-wus"/>
+                        <segue destination="RDb-3W-KbB" kind="presentation" identifier="herbDetails" id="E0S-is-qqI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+        <!--Herb Details View Controller-->
+        <scene sceneID="llw-ts-u4b">
+            <objects>
+                <viewController id="RDb-3W-KbB" customClass="HerbDetailsViewController" customModule="CustomTransitionStyle" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JFs-Gu-xT7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="herd_garden.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="CeN-MV-FI0">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <visualEffectView opaque="NO" alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aYq-2d-GV9" userLabel="BlurView">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="raq-b7-cZc">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <blurEffect style="dark"/>
+                            </visualEffectView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FV1-Sr-dv6">
+                                <rect key="frame" x="16" y="40" width="39" height="33"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="0d4-ga-7Qw" kind="unwind" identifier="unwindToHome" unwindAction="unwindToHomeWithSegue:" id="aOK-0u-umK"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="aYq-2d-GV9" firstAttribute="trailing" secondItem="OuV-Az-n9j" secondAttribute="trailing" id="0cL-ka-LmD"/>
+                            <constraint firstItem="CeN-MV-FI0" firstAttribute="bottom" secondItem="OuV-Az-n9j" secondAttribute="bottom" id="31l-g7-Djy"/>
+                            <constraint firstItem="CeN-MV-FI0" firstAttribute="top" secondItem="JFs-Gu-xT7" secondAttribute="top" id="7z8-SZ-DMK"/>
+                            <constraint firstItem="aYq-2d-GV9" firstAttribute="top" secondItem="JFs-Gu-xT7" secondAttribute="top" id="MNM-j8-xcJ"/>
+                            <constraint firstItem="CeN-MV-FI0" firstAttribute="leading" secondItem="OuV-Az-n9j" secondAttribute="leading" id="Q2q-9j-MXH"/>
+                            <constraint firstItem="aYq-2d-GV9" firstAttribute="bottom" secondItem="OuV-Az-n9j" secondAttribute="bottom" id="cOW-LP-jZv"/>
+                            <constraint firstItem="FV1-Sr-dv6" firstAttribute="leading" secondItem="OuV-Az-n9j" secondAttribute="leading" constant="16" id="deN-Pt-ibM"/>
+                            <constraint firstItem="FV1-Sr-dv6" firstAttribute="top" secondItem="OuV-Az-n9j" secondAttribute="top" constant="20" id="f87-FO-Mh5"/>
+                            <constraint firstItem="CeN-MV-FI0" firstAttribute="trailing" secondItem="OuV-Az-n9j" secondAttribute="trailing" id="fId-gj-AWm"/>
+                            <constraint firstItem="aYq-2d-GV9" firstAttribute="leading" secondItem="OuV-Az-n9j" secondAttribute="leading" id="o7v-Em-uXf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="OuV-Az-n9j"/>
+                    </view>
+                    <connections>
+                        <outlet property="backgroungView" destination="CeN-MV-FI0" id="TmF-WZ-Tb3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Fc-Nt-1Q7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="0d4-ga-7Qw" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1024.8" y="133.5832083958021"/>
         </scene>
         <!--Herbs Collection View Controller-->
         <scene sceneID="sut-nn-gPT">
@@ -135,6 +191,7 @@
                                 </constraints>
                                 <connections>
                                     <outlet property="iconView" destination="EPP-16-OAq" id="Hoy-v9-xen"/>
+                                    <segue destination="p2o-35-RDs" kind="unwind" identifier="herbSelect" unwindAction="unwindToHomeWithSegue:" id="qJl-L0-eX6"/>
                                 </connections>
                             </collectionViewCell>
                         </cells>
@@ -145,6 +202,7 @@
                     </collectionView>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b6K-rB-ZfF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="p2o-35-RDs" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="137" y="658"/>
         </scene>

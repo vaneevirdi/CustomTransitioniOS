@@ -18,7 +18,14 @@ class HomeViewController: UIViewController {
         static let content = "home.body".localized
         static let subtitle = "home.subtitle".localized
     }
+    
+    enum SegueIdentifier: String {
+        case herbSelect
+        case herbDetails
+    }
 
+    var selectedHerb: Herb?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         titleLabel.text = Constants.title
@@ -31,7 +38,23 @@ class HomeViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    @IBAction func unwindToHome(withSegue segue: UIStoryboardSegue) {
+        //TODO:
+        if segue.identifier == SegueIdentifier.herbSelect.rawValue {
+            performSegue(withIdentifier: SegueIdentifier.herbDetails.rawValue, sender: nil)
+        } else {
+            selectedHerb = nil
+        }
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == SegueIdentifier.herbDetails.rawValue,
+            let destination = segue.destination as? HerbDetailsViewController
+        {
+            destination.herb = selectedHerb
+        }
+    }
 
 }
 
