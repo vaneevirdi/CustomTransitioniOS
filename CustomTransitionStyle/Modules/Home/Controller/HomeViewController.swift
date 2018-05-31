@@ -9,6 +9,7 @@
 import UIKit
 
 class HomeViewController: UIViewController {
+    
     @IBOutlet var titleLabel : UILabel!
     @IBOutlet var content : UILabel!
     @IBOutlet var subtitleLabel : UILabel!

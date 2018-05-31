@@ -146,9 +146,20 @@
                     </view>
                     <connections>
                         <outlet property="backgroungView" destination="CeN-MV-FI0" id="TmF-WZ-Tb3"/>
+                        <outlet property="transitioningDelegateOutlet" destination="3Jn-Qn-g5k" id="KOc-IZ-7qn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Fc-Nt-1Q7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="3Jn-Qn-g5k" customClass="CustomAnimationDelegate" customModule="CustomTransitionStyle" customModuleProvider="target">
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="duration">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="shape">
+                            <integer key="value" value="0"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </customObject>
                 <exit id="0d4-ga-7Qw" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1024.8" y="133.5832083958021"/>

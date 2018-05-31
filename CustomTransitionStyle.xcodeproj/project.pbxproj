@@ -16,6 +16,10 @@
 		0987941220BFF856001C8062 /* coriander.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0987941120BFF856001C8062 /* coriander.jpg */; };
 		0987941420BFFC2D001C8062 /* lemongrass.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0987941320BFFC2D001C8062 /* lemongrass.jpg */; };
 		0987941820BFFE09001C8062 /* HerbDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0987941720BFFE09001C8062 /* HerbDetailsViewController.swift */; };
+		0987941E20C05F28001C8062 /* FadeAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0987941D20C05F28001C8062 /* FadeAnimator.swift */; };
+		0987942120C073C8001C8062 /* UIViewController+Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0987942020C073C8001C8062 /* UIViewController+Transition.swift */; };
+		0987942520C0769D001C8062 /* CustomAnimatorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0987942420C0769D001C8062 /* CustomAnimatorDelegate.swift */; };
+		0987942720C08156001C8062 /* PopAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0987942620C08156001C8062 /* PopAnimator.swift */; };
 		09BED8EA20BEAF1A00EC84CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BED8E920BEAF1A00EC84CF /* AppDelegate.swift */; };
 		09BED8EC20BEAF1A00EC84CF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BED8EB20BEAF1A00EC84CF /* HomeViewController.swift */; };
 		09BED8EF20BEAF1A00EC84CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09BED8ED20BEAF1A00EC84CF /* Main.storyboard */; };
@@ -36,6 +40,10 @@
 		0987941120BFF856001C8062 /* coriander.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coriander.jpg; sourceTree = "<group>"; };
 		0987941320BFFC2D001C8062 /* lemongrass.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lemongrass.jpg; sourceTree = "<group>"; };
 		0987941720BFFE09001C8062 /* HerbDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerbDetailsViewController.swift; sourceTree = "<group>"; };
+		0987941D20C05F28001C8062 /* FadeAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadeAnimator.swift; sourceTree = "<group>"; };
+		0987942020C073C8001C8062 /* UIViewController+Transition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Transition.swift"; sourceTree = "<group>"; };
+		0987942420C0769D001C8062 /* CustomAnimatorDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnimatorDelegate.swift; sourceTree = "<group>"; };
+		0987942620C08156001C8062 /* PopAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopAnimator.swift; sourceTree = "<group>"; };
 		09BED8E620BEAF1A00EC84CF /* CustomTransitionStyle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTransitionStyle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09BED8E920BEAF1A00EC84CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09BED8EB20BEAF1A00EC84CF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -110,6 +118,14 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		0987941F20C07391001C8062 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0987942020C073C8001C8062 /* UIViewController+Transition.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		09BED8DD20BEAF1A00EC84CF = {
 			isa = PBXGroup;
 			children = (
@@ -175,6 +191,7 @@
 		09BED90220BF1D8A00EC84CF /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				0987941F20C07391001C8062 /* Controller */,
 				09BED90320BF1D9C00EC84CF /* Model */,
 			);
 			path = Common;
@@ -184,6 +201,9 @@
 			isa = PBXGroup;
 			children = (
 				09BED90420BF1E0600EC84CF /* String+Localized.swift */,
+				0987941D20C05F28001C8062 /* FadeAnimator.swift */,
+				0987942420C0769D001C8062 /* CustomAnimatorDelegate.swift */,
+				0987942620C08156001C8062 /* PopAnimator.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -269,9 +289,13 @@
 				09BED90520BF1E0600EC84CF /* String+Localized.swift in Sources */,
 				098793FD20BFD844001C8062 /* HerbsCollectionViewController.swift in Sources */,
 				0987940920BFE6E5001C8062 /* Herb.swift in Sources */,
+				0987942720C08156001C8062 /* PopAnimator.swift in Sources */,
+				0987942120C073C8001C8062 /* UIViewController+Transition.swift in Sources */,
 				09BED8EC20BEAF1A00EC84CF /* HomeViewController.swift in Sources */,
 				0987940620BFDDBE001C8062 /* HerbCollectionViewCell.swift in Sources */,
+				0987942520C0769D001C8062 /* CustomAnimatorDelegate.swift in Sources */,
 				09BED8EA20BEAF1A00EC84CF /* AppDelegate.swift in Sources */,
+				0987941E20C05F28001C8062 /* FadeAnimator.swift in Sources */,
 				0987941820BFFE09001C8062 /* HerbDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
