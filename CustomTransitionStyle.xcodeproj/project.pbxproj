@@ -12,8 +12,9 @@
 		09BED8EF20BEAF1A00EC84CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09BED8ED20BEAF1A00EC84CF /* Main.storyboard */; };
 		09BED8F120BEAF1B00EC84CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09BED8F020BEAF1B00EC84CF /* Assets.xcassets */; };
 		09BED8F420BEAF1B00EC84CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09BED8F220BEAF1B00EC84CF /* LaunchScreen.storyboard */; };
-		09BED8FD20BEFCE000EC84CF /* GardenConstants.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09BED8FC20BEFCE000EC84CF /* GardenConstants.strings */; };
-		09BED90020BF007000EC84CF /* herb_garden.png in Resources */ = {isa = PBXBuildFile; fileRef = 09BED8FF20BF007000EC84CF /* herb_garden.png */; };
+		09BED90020BF007000EC84CF /* herd_garden.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 09BED8FF20BF007000EC84CF /* herd_garden.jpeg */; };
+		09BED90520BF1E0600EC84CF /* String+Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BED90420BF1E0600EC84CF /* String+Localized.swift */; };
+		09BED91320BF32A000EC84CF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09BED91220BF32A000EC84CF /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +25,9 @@
 		09BED8F020BEAF1B00EC84CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09BED8F320BEAF1B00EC84CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09BED8F520BEAF1B00EC84CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		09BED8FC20BEFCE000EC84CF /* GardenConstants.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = GardenConstants.strings; sourceTree = "<group>"; };
-		09BED8FF20BF007000EC84CF /* herb_garden.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = herb_garden.png; sourceTree = "<group>"; };
+		09BED8FF20BF007000EC84CF /* herd_garden.jpeg */ = {isa = PBXFileReference; explicitFileType = image.jpeg; path = herd_garden.jpeg; sourceTree = "<group>"; };
+		09BED90420BF1E0600EC84CF /* String+Localized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Localized.swift"; sourceTree = "<group>"; };
+		09BED91220BF32A000EC84CF /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		09BED8E820BEAF1A00EC84CF /* CustomTransitionStyle */ = {
 			isa = PBXGroup;
 			children = (
+				09BED90120BF1D7B00EC84CF /* Modules */,
 				09BED8FB20BEF83C00EC84CF /* Support */,
 				09BED8E920BEAF1A00EC84CF /* AppDelegate.swift */,
 				09BED8EB20BEAF1A00EC84CF /* HomeViewController.swift */,
@@ -69,11 +72,11 @@
 		09BED8FB20BEF83C00EC84CF /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				09BED91220BF32A000EC84CF /* Localizable.strings */,
 				09BED8FE20BF004100EC84CF /* images */,
 				09BED8F520BEAF1B00EC84CF /* Info.plist */,
 				09BED8F220BEAF1B00EC84CF /* LaunchScreen.storyboard */,
 				09BED8F020BEAF1B00EC84CF /* Assets.xcassets */,
-				09BED8FC20BEFCE000EC84CF /* GardenConstants.strings */,
 			);
 			path = Support;
 			sourceTree = "<group>";
@@ -81,9 +84,33 @@
 		09BED8FE20BF004100EC84CF /* images */ = {
 			isa = PBXGroup;
 			children = (
-				09BED8FF20BF007000EC84CF /* herb_garden.png */,
+				09BED8FF20BF007000EC84CF /* herd_garden.jpeg */,
 			);
 			path = images;
+			sourceTree = "<group>";
+		};
+		09BED90120BF1D7B00EC84CF /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				09BED90220BF1D8A00EC84CF /* Common */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		09BED90220BF1D8A00EC84CF /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				09BED90320BF1D9C00EC84CF /* Model */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		09BED90320BF1D9C00EC84CF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				09BED90420BF1E0600EC84CF /* String+Localized.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,10 +171,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09BED90020BF007000EC84CF /* herb_garden.png in Resources */,
+				09BED90020BF007000EC84CF /* herd_garden.jpeg in Resources */,
 				09BED8F420BEAF1B00EC84CF /* LaunchScreen.storyboard in Resources */,
-				09BED8FD20BEFCE000EC84CF /* GardenConstants.strings in Resources */,
 				09BED8F120BEAF1B00EC84CF /* Assets.xcassets in Resources */,
+				09BED91320BF32A000EC84CF /* Localizable.strings in Resources */,
 				09BED8EF20BEAF1A00EC84CF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -159,6 +186,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09BED90520BF1E0600EC84CF /* String+Localized.swift in Sources */,
 				09BED8EC20BEAF1A00EC84CF /* HomeViewController.swift in Sources */,
 				09BED8EA20BEAF1A00EC84CF /* AppDelegate.swift in Sources */,
 			);
@@ -305,7 +333,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CustomTransitionStyle/Info.plist;
+				INFOPLIST_FILE = CustomTransitionStyle/Support/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -322,7 +350,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CustomTransitionStyle/Info.plist;
+				INFOPLIST_FILE = CustomTransitionStyle/Support/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

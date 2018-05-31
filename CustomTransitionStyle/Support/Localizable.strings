@@ -1,0 +1,13 @@
+/* 
+  GardenConstants.strings
+  CustomTransitionStyle
+
+  Created by Vanee Virdi on 30/05/18.
+  Copyright © 2018 Vanee Virdi. All rights reserved.
+*/
+
+"home.title" = "Kitchen herb garden";
+"home.body" = "\tMany kitchen gardeners love the convenience of fresh herbs at home, and what could be more convenient that an indoor herb garden? Even if you live in an apartment or condo without any outdoor space, you can grow herbs indoors. The ideal setting for an indoor herb garden is the kitchen, where you can snip fresh herbs and use them in dishes without skipping a beat. If you don’t have a spot in your kitchen, though, you can still grow herbs in any sunny room.\n\n\tTo grow well indoors, herbs need as much natural light as possible. Place them in a sunny spot near a window where they’ll get at least 6 hours of sun daily. Windows that face south or southwest are your best shot at sun, though east- or west-facing windows also will do. North-facing windows are not bright enough.";
+"home.subtitle" = "Sustainable Indor Herbs";
+"home.image.name" = "herb_garden";
+	
