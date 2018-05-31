@@ -7,17 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		098793FD20BFD844001C8062 /* HerbsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098793FC20BFD844001C8062 /* HerbsCollectionViewController.swift */; };
+		0987940620BFDDBE001C8062 /* HerbCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0987940520BFDDBE001C8062 /* HerbCollectionViewCell.swift */; };
+		0987940920BFE6E5001C8062 /* Herb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0987940820BFE6E5001C8062 /* Herb.swift */; };
+		0987940E20BFF344001C8062 /* rosemary.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0987940B20BFF344001C8062 /* rosemary.jpg */; };
+		0987940F20BFF344001C8062 /* basil.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0987940C20BFF344001C8062 /* basil.jpg */; };
+		0987941020BFF344001C8062 /* mint.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0987940D20BFF344001C8062 /* mint.jpg */; };
+		0987941220BFF856001C8062 /* coriander.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0987941120BFF856001C8062 /* coriander.jpg */; };
+		0987941420BFFC2D001C8062 /* lemongrass.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0987941320BFFC2D001C8062 /* lemongrass.jpg */; };
 		09BED8EA20BEAF1A00EC84CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BED8E920BEAF1A00EC84CF /* AppDelegate.swift */; };
 		09BED8EC20BEAF1A00EC84CF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BED8EB20BEAF1A00EC84CF /* HomeViewController.swift */; };
 		09BED8EF20BEAF1A00EC84CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09BED8ED20BEAF1A00EC84CF /* Main.storyboard */; };
 		09BED8F120BEAF1B00EC84CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09BED8F020BEAF1B00EC84CF /* Assets.xcassets */; };
 		09BED8F420BEAF1B00EC84CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09BED8F220BEAF1B00EC84CF /* LaunchScreen.storyboard */; };
-		09BED90020BF007000EC84CF /* herd_garden.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 09BED8FF20BF007000EC84CF /* herd_garden.jpeg */; };
+		09BED90020BF007000EC84CF /* herd_garden.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09BED8FF20BF007000EC84CF /* herd_garden.jpg */; };
 		09BED90520BF1E0600EC84CF /* String+Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BED90420BF1E0600EC84CF /* String+Localized.swift */; };
 		09BED91320BF32A000EC84CF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09BED91220BF32A000EC84CF /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		098793FC20BFD844001C8062 /* HerbsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerbsCollectionViewController.swift; sourceTree = "<group>"; };
+		0987940520BFDDBE001C8062 /* HerbCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerbCollectionViewCell.swift; sourceTree = "<group>"; };
+		0987940820BFE6E5001C8062 /* Herb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Herb.swift; sourceTree = "<group>"; };
+		0987940B20BFF344001C8062 /* rosemary.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rosemary.jpg; sourceTree = "<group>"; };
+		0987940C20BFF344001C8062 /* basil.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = basil.jpg; sourceTree = "<group>"; };
+		0987940D20BFF344001C8062 /* mint.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mint.jpg; sourceTree = "<group>"; };
+		0987941120BFF856001C8062 /* coriander.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coriander.jpg; sourceTree = "<group>"; };
+		0987941320BFFC2D001C8062 /* lemongrass.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lemongrass.jpg; sourceTree = "<group>"; };
 		09BED8E620BEAF1A00EC84CF /* CustomTransitionStyle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTransitionStyle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09BED8E920BEAF1A00EC84CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09BED8EB20BEAF1A00EC84CF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -25,7 +41,7 @@
 		09BED8F020BEAF1B00EC84CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09BED8F320BEAF1B00EC84CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09BED8F520BEAF1B00EC84CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		09BED8FF20BF007000EC84CF /* herd_garden.jpeg */ = {isa = PBXFileReference; explicitFileType = image.jpeg; path = herd_garden.jpeg; sourceTree = "<group>"; };
+		09BED8FF20BF007000EC84CF /* herd_garden.jpg */ = {isa = PBXFileReference; explicitFileType = image.jpeg; path = herd_garden.jpg; sourceTree = "<group>"; };
 		09BED90420BF1E0600EC84CF /* String+Localized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Localized.swift"; sourceTree = "<group>"; };
 		09BED91220BF32A000EC84CF /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -41,6 +57,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		098793FA20BFD7F2001C8062 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0987940720BFE6D6001C8062 /* Model */,
+				0987940420BFDD9B001C8062 /* View */,
+				098793FB20BFD7FE001C8062 /* Controller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		098793FB20BFD7FE001C8062 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				09BED8EB20BEAF1A00EC84CF /* HomeViewController.swift */,
+				098793FC20BFD844001C8062 /* HerbsCollectionViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0987940420BFDD9B001C8062 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0987940520BFDDBE001C8062 /* HerbCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0987940720BFE6D6001C8062 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0987940820BFE6E5001C8062 /* Herb.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		09BED8DD20BEAF1A00EC84CF = {
 			isa = PBXGroup;
 			children = (
@@ -63,7 +114,6 @@
 				09BED90120BF1D7B00EC84CF /* Modules */,
 				09BED8FB20BEF83C00EC84CF /* Support */,
 				09BED8E920BEAF1A00EC84CF /* AppDelegate.swift */,
-				09BED8EB20BEAF1A00EC84CF /* HomeViewController.swift */,
 				09BED8ED20BEAF1A00EC84CF /* Main.storyboard */,
 			);
 			path = CustomTransitionStyle;
@@ -84,7 +134,12 @@
 		09BED8FE20BF004100EC84CF /* images */ = {
 			isa = PBXGroup;
 			children = (
-				09BED8FF20BF007000EC84CF /* herd_garden.jpeg */,
+				0987941320BFFC2D001C8062 /* lemongrass.jpg */,
+				0987941120BFF856001C8062 /* coriander.jpg */,
+				0987940C20BFF344001C8062 /* basil.jpg */,
+				0987940D20BFF344001C8062 /* mint.jpg */,
+				0987940B20BFF344001C8062 /* rosemary.jpg */,
+				09BED8FF20BF007000EC84CF /* herd_garden.jpg */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -92,6 +147,7 @@
 		09BED90120BF1D7B00EC84CF /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				098793FA20BFD7F2001C8062 /* Home */,
 				09BED90220BF1D8A00EC84CF /* Common */,
 			);
 			path = Modules;
@@ -171,11 +227,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09BED90020BF007000EC84CF /* herd_garden.jpeg in Resources */,
+				0987941420BFFC2D001C8062 /* lemongrass.jpg in Resources */,
+				09BED90020BF007000EC84CF /* herd_garden.jpg in Resources */,
+				0987940E20BFF344001C8062 /* rosemary.jpg in Resources */,
 				09BED8F420BEAF1B00EC84CF /* LaunchScreen.storyboard in Resources */,
+				0987940F20BFF344001C8062 /* basil.jpg in Resources */,
 				09BED8F120BEAF1B00EC84CF /* Assets.xcassets in Resources */,
+				0987941220BFF856001C8062 /* coriander.jpg in Resources */,
 				09BED91320BF32A000EC84CF /* Localizable.strings in Resources */,
 				09BED8EF20BEAF1A00EC84CF /* Main.storyboard in Resources */,
+				0987941020BFF344001C8062 /* mint.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,7 +248,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				09BED90520BF1E0600EC84CF /* String+Localized.swift in Sources */,
+				098793FD20BFD844001C8062 /* HerbsCollectionViewController.swift in Sources */,
+				0987940920BFE6E5001C8062 /* Herb.swift in Sources */,
 				09BED8EC20BEAF1A00EC84CF /* HomeViewController.swift in Sources */,
+				0987940620BFDDBE001C8062 /* HerbCollectionViewCell.swift in Sources */,
 				09BED8EA20BEAF1A00EC84CF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
