@@ -20,6 +20,8 @@
 		0987942120C073C8001C8062 /* UIViewController+Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0987942020C073C8001C8062 /* UIViewController+Transition.swift */; };
 		0987942520C0769D001C8062 /* CustomAnimatorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0987942420C0769D001C8062 /* CustomAnimatorDelegate.swift */; };
 		0987942720C08156001C8062 /* PopAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0987942620C08156001C8062 /* PopAnimator.swift */; };
+		0987943120C14F39001C8062 /* CustomTransitionStyleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0987943020C14F39001C8062 /* CustomTransitionStyleUITests.swift */; };
+		0987943920C15F85001C8062 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0987943820C15F85001C8062 /* SnapshotHelper.swift */; };
 		09BED8EA20BEAF1A00EC84CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BED8E920BEAF1A00EC84CF /* AppDelegate.swift */; };
 		09BED8EC20BEAF1A00EC84CF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BED8EB20BEAF1A00EC84CF /* HomeViewController.swift */; };
 		09BED8EF20BEAF1A00EC84CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09BED8ED20BEAF1A00EC84CF /* Main.storyboard */; };
@@ -29,6 +31,16 @@
 		09BED90520BF1E0600EC84CF /* String+Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BED90420BF1E0600EC84CF /* String+Localized.swift */; };
 		09BED91320BF32A000EC84CF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09BED91220BF32A000EC84CF /* Localizable.strings */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0987943320C14F39001C8062 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09BED8DE20BEAF1A00EC84CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09BED8E520BEAF1A00EC84CF;
+			remoteInfo = CustomTransitionStyle;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		098793FC20BFD844001C8062 /* HerbsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerbsCollectionViewController.swift; sourceTree = "<group>"; };
@@ -44,6 +56,10 @@
 		0987942020C073C8001C8062 /* UIViewController+Transition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Transition.swift"; sourceTree = "<group>"; };
 		0987942420C0769D001C8062 /* CustomAnimatorDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnimatorDelegate.swift; sourceTree = "<group>"; };
 		0987942620C08156001C8062 /* PopAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopAnimator.swift; sourceTree = "<group>"; };
+		0987942E20C14F39001C8062 /* CustomTransitionStyleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTransitionStyleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0987943020C14F39001C8062 /* CustomTransitionStyleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransitionStyleUITests.swift; sourceTree = "<group>"; };
+		0987943220C14F39001C8062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0987943820C15F85001C8062 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = "<group>"; };
 		09BED8E620BEAF1A00EC84CF /* CustomTransitionStyle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTransitionStyle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09BED8E920BEAF1A00EC84CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09BED8EB20BEAF1A00EC84CF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +73,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0987942B20C14F39001C8062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		09BED8E320BEAF1A00EC84CF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -126,10 +149,21 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		0987942F20C14F39001C8062 /* CustomTransitionStyleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0987943820C15F85001C8062 /* SnapshotHelper.swift */,
+				0987943020C14F39001C8062 /* CustomTransitionStyleUITests.swift */,
+				0987943220C14F39001C8062 /* Info.plist */,
+			);
+			path = CustomTransitionStyleUITests;
+			sourceTree = "<group>";
+		};
 		09BED8DD20BEAF1A00EC84CF = {
 			isa = PBXGroup;
 			children = (
 				09BED8E820BEAF1A00EC84CF /* CustomTransitionStyle */,
+				0987942F20C14F39001C8062 /* CustomTransitionStyleUITests */,
 				09BED8E720BEAF1A00EC84CF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -138,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				09BED8E620BEAF1A00EC84CF /* CustomTransitionStyle.app */,
+				0987942E20C14F39001C8062 /* CustomTransitionStyleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -211,6 +246,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0987942D20C14F39001C8062 /* CustomTransitionStyleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0987943720C14F39001C8062 /* Build configuration list for PBXNativeTarget "CustomTransitionStyleUITests" */;
+			buildPhases = (
+				0987942A20C14F39001C8062 /* Sources */,
+				0987942B20C14F39001C8062 /* Frameworks */,
+				0987942C20C14F39001C8062 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0987943420C14F39001C8062 /* PBXTargetDependency */,
+			);
+			name = CustomTransitionStyleUITests;
+			productName = CustomTransitionStyleUITests;
+			productReference = 0987942E20C14F39001C8062 /* CustomTransitionStyleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		09BED8E520BEAF1A00EC84CF /* CustomTransitionStyle */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 09BED8F820BEAF1B00EC84CF /* Build configuration list for PBXNativeTarget "CustomTransitionStyle" */;
@@ -238,6 +291,10 @@
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Vanee Virdi";
 				TargetAttributes = {
+					0987942D20C14F39001C8062 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 09BED8E520BEAF1A00EC84CF;
+					};
 					09BED8E520BEAF1A00EC84CF = {
 						CreatedOnToolsVersion = 9.3.1;
 					};
@@ -257,11 +314,19 @@
 			projectRoot = "";
 			targets = (
 				09BED8E520BEAF1A00EC84CF /* CustomTransitionStyle */,
+				0987942D20C14F39001C8062 /* CustomTransitionStyleUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0987942C20C14F39001C8062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		09BED8E420BEAF1A00EC84CF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -282,6 +347,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0987942A20C14F39001C8062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0987943120C14F39001C8062 /* CustomTransitionStyleUITests.swift in Sources */,
+				0987943920C15F85001C8062 /* SnapshotHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		09BED8E220BEAF1A00EC84CF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -301,6 +375,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0987943420C14F39001C8062 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09BED8E520BEAF1A00EC84CF /* CustomTransitionStyle */;
+			targetProxy = 0987943320C14F39001C8062 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		09BED8ED20BEAF1A00EC84CF /* Main.storyboard */ = {
@@ -322,6 +404,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		0987943520C14F39001C8062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CZM87T6WP6;
+				INFOPLIST_FILE = CustomTransitionStyleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vanee.CustomTransitionStyleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomTransitionStyle;
+			};
+			name = Debug;
+		};
+		0987943620C14F39001C8062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CZM87T6WP6;
+				INFOPLIST_FILE = CustomTransitionStyleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vanee.CustomTransitionStyleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomTransitionStyle;
+			};
+			name = Release;
+		};
 		09BED8F620BEAF1B00EC84CF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -441,12 +561,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CZM87T6WP6;
 				INFOPLIST_FILE = CustomTransitionStyle/Support/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.vanee.CustomTransitionStyle;
+				PRODUCT_BUNDLE_IDENTIFIER = com.inteliment.CustomTransitionStyle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -458,12 +579,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CZM87T6WP6;
 				INFOPLIST_FILE = CustomTransitionStyle/Support/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.vanee.CustomTransitionStyle;
+				PRODUCT_BUNDLE_IDENTIFIER = com.inteliment.CustomTransitionStyle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -473,6 +595,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0987943720C14F39001C8062 /* Build configuration list for PBXNativeTarget "CustomTransitionStyleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0987943520C14F39001C8062 /* Debug */,
+				0987943620C14F39001C8062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
 		09BED8E120BEAF1A00EC84CF /* Build configuration list for PBXProject "CustomTransitionStyle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -480,7 +611,7 @@
 				09BED8F720BEAF1B00EC84CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		09BED8F820BEAF1B00EC84CF /* Build configuration list for PBXNativeTarget "CustomTransitionStyle" */ = {
 			isa = XCConfigurationList;
@@ -489,7 +620,7 @@
 				09BED8FA20BEAF1B00EC84CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
